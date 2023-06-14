@@ -13,8 +13,8 @@
 
     $consulta = " CALL p_registroAnimal('$nombre_animal','$descripcion_animal', '$id_clasificacion', '$id_alimentacion', '$id_habitat')";
 
-    // INSERT INTO animal (nombre_animal, descripcion_animal, id_clasificacion_id, id_alimentacion_id, id_habitat_id)
-    // VALUES (nombre_animal, descripcion_animal, id_clasificacion, id_alimentacion, id_habitat);
+    //$consulta = "INSERT INTO animal (nombre_animal, descripcion_animal, id_clasificacion_id, id_alimentacion_id, id_habitat_id)
+    //|VALUES (nombre_animal, descripcion_animal, id_clasificacion, id_alimentacion, id_habitat)";
 
 
     $query = mysqli_query($conn, $consulta);

@@ -21,8 +21,6 @@
     </header>
     <main>
 
-
-        
         <?php
         print_r($_POST);
 
